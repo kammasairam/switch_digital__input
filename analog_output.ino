@@ -6,7 +6,7 @@ Serial.begin(9600);
 
 void loop() {
   // put your main code here, to run repeatedly:
-for(i=0;i<1024;i==)
+for(i=0;i<1024;i++)
 {
   analogWrite(D0,i);
   delay(10);
